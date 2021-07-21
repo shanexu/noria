@@ -13,3 +13,4 @@ debug=true
 # optional -- just a perf optimization
 # comment this out if you want cargo doc to work!
 tokio-tower = { git = "https://github.com/shanexu/tokio-tower.git", branch = "no-box" }
+evmap = { git = "https://github.com/jonhoo/evmap.git", rev = "81d84ee7dbae08f52842891ef401d2f843e4a273", features = ["eviction"] }
